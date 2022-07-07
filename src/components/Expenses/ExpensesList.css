@@ -1,0 +1,7 @@
+.expenses-list {
+    padding: 0;
+    width: 100%;
+}
+.expenses-list li {
+    list-style-type: none;
+}
