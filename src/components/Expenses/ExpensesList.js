@@ -3,7 +3,7 @@ import "./ExpensesList.css";
 
 const ExpensesList = props => {
 
-    if (props.items.length === 0) {
+    if (!props.items.length) {
         return <h2 className="expenses-liist__fallback">No expenses found</h2>
     } else {
         return (
